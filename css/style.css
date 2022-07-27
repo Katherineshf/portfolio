@@ -1,6 +1,63 @@
-
+    *{
+      box-sizing: border-box;
+    }
     body{
-      background-color: #DAEAF1
+      background-color:#F9F2ED;
+    }
+
+    .header{
+      display: flex;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .header h1{
+      display:inline-block;
+      font-size: 54px;
+      color: #CFD2CF;
+    }
+
+    .katherine{     
+      color:#FFC54D ; 
+    }
+    
+    .header div{
+      padding-top: 32px;
+      margin-right: 16px;
+      float:right;
+      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .header div ul{
+      list-style-type: none;
+    }
+
+    .header div ul li{
+      display: inline-block;
+      margin-left: 32px;
+    }
+
+    a{
+      color:hotpink;
+      text-decoration: dashed;
+    }
+
+    .content{
+      display: inline-block;
+    }
+
+    .img-katherine{
+      display: inline-block;
+      margin-left: 32px;
+      width: 150px;
+      height: 200px;
+    }
+
+    p{
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 54px;
     }
 
     hr{
@@ -16,4 +73,24 @@
    }
    h3{
      color: #37E2D5
+   }
+
+
+
+
+
+
+   .contact ul{
+    list-style-type: none;
+   }
+
+
+
+
+
+   @media screen and (max-width: 900px) {
+    main,
+    nav{
+      flex-direction: column;
+    }
    }
